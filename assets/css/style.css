@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+.header*,
+.header {
+  border: 1px dotted black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  justify-content: space-between;
+  background-color: rgba(0, 184, 255);
+
+  .left {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    max-width: 6rem;
+  }
+
+  .company-name {
+    font-size: 2rem;
+    color: bisque;
+  }
+
+  .btn {
+    background-color: rgba(0, 255, 159, 0.5);
+    background: linear-gradient(
+      90deg,
+      rgba(36, 0, 32, 0.3) rgba(146, 0, 32, 0.3)
+    );
+    font-size: 1.3rem;
+    color: bisque;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+}
+.contents {
+  height: 100%;
+  border: 1px black dotted;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0.2rem 1rem;
+  background-color: rgba(214, 0, 255);
+}
