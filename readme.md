@@ -9,10 +9,9 @@
   </a>
   <h3 align="center">Seatwork 1</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
 </div>
-
+This single-page web design project effectively demonstrates fundamental layout principles by incorporating five distinct headers and five unique footers. It's a clear illustration of basic web page structure, developed for a web design seatwork.
 <br />
 
 ![](https://visit-counter.vercel.app/counter.png?page=migsii/WD-SEATWORK-1)
@@ -49,16 +48,21 @@
 
 ## Overview
 
-Description of the project in details.
+This single-page website, created for a web design seatwork, effectively demonstrates fundamental layout by incorporating five distinct header sections and five unique footer sections.
 
 ### Why?
 
+-This project provides hands-on experience in structuring a web page, managing different content blocks, and understanding the flow of a single-page layout.
+
 ### Purpose
+
+-Its main purpose is to showcase proficiency in creating a well-structured and visually distinct single-page website, illustrating proper HTML semantics, various design approaches, and basic CSS styling.
 
 ### Key Components
 
 - Single Page Website
--
+- CSS Styling
+- HTML Structure
 
 ### Technology
 
@@ -78,10 +82,6 @@ WD-SEATWORK-1
 |   |   └─ style.css
 |   └─ img
 |       └─ annagraem.jpg
-└─ pages
-|  └─ page1
-|  └─ page2
-|  └─ page3
 └─ index.html
 └─ readme.md
 ```
